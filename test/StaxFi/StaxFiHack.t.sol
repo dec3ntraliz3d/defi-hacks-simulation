@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 import "forge-std/Test.sol";
 import {IERC20} from "openzeppelin-contracts/interfaces/IERC20.sol";
-import {StaxFiExploit} from "../src/StaxFiExploit.sol";
+import {StaxFiExploit} from "../../src/StaxFi/StaxFiExploit.sol";
 
 interface IStaxLPStakingContract {
     function withdrawAll(bool claim) external;
