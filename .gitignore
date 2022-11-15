@@ -11,4 +11,4 @@ out/
 .env
 
 # foundry.toml file
-foundry\.toml
+*.toml
