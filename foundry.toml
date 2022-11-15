@@ -4,3 +4,6 @@ out = 'out'
 libs = ['lib']
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
+[rpc_endpoints]
+mainnet = "https://eth-mainnet.g.alchemy.com/v2/7Mo08KJOJvy7jAI1GzVx2LuXeLuYqz7E"
